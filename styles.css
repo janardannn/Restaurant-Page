@@ -1,8 +1,90 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.7px;
+    color: black;
+}
 body {
-    background-image: url("../resources/background.png");
     background-size: cover;
-    
     color: aliceblue;
 }
 
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../resources/background.png");
+    background-size: cover;
+}
 
+.header-container {
+    background: rgba(125, 90, 80, .35);
+    text-align: center;
+    padding-top: 5.5rem;
+    padding-bottom: 1rem;
+}
+
+.header-brand-banner {
+    font-family: 'Young Serif', serif;
+    font-size: 2.7rem;
+    letter-spacing: 2.7px;
+    font-family: 'Young Serif', serif;
+    color: black;
+    margin-bottom: 3rem;
+}
+
+.header-nav-bar {
+    padding-left: 27vw;
+    padding-right: 27vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-self: center;
+    justify-content: space-around;
+}
+
+.tab-btn {
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+}
+
+.tab-btn:hover {
+    border-bottom: 2px solid;
+    border-color: black;
+    transform: translateY(-10%);
+}
+
+.restaurant-body {
+    flex-grow: 2;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    justify-self: center;
+}
+
+.restrau-brief-text {
+    margin-left: 25vw;
+    margin-right: 25vw;
+}
+
+.footer-container {
+    background: rgba(125, 90, 80, .35);
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-self: center;
+    justify-content: center;
+}
+
+.footer-textbox {
+    margin-right: 1vw;
+}
+.footer-icon {
+    margin-left: 1vw;
+    transform: translateY(-20%);
+}
