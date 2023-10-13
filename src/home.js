@@ -1,10 +1,4 @@
-const body = document.body;
-
-let makeHeader = () => {
-    
-};
-
-let makeBody = () => {
+let makeHome = (body) => {
     let banner = document.createElement('div');
     banner.className = "banner";
     let bannerText = document.createElement('h1');
@@ -14,15 +8,11 @@ let makeBody = () => {
 
     let restaurantBrief = document.createElement('div');
     restaurantBrief.className = "restrau-brief";
-    let restrauBreifText = document.createElement('p');
-    restrauBreifText.className = "restrau-brief-text";
-    restrauBreifText.innerText = `Welcome to Meridian, where elegance meets culinary excellence. Our restaurant is the quintessential destination for an unforgettable dinner date experience. Nestled in the heart of [City], we pride ourselves on offering a high-class, upscale dining experience.
-    Our menu is a testament to our commitment to quality and indulgence. Savor the finest non-vegetarian platters and seafood dishes meticulously crafted by our world-class chefs. Each dish is a symphony of flavors that will tantalize your taste buds and leave you craving for more.
-    At Meridian, we understand the importance of pairing your exquisite meal with the perfect wine. Our carefully curated wine list features a selection of the finest vintages to complement your dining experience, adding that touch of sophistication to your evening.
-    With an ambiance that exudes romance and luxury, Meridian is the ideal setting for your next dinner date. Whether it's a special occasion or just a night out to celebrate each other's company, our restaurant offers an inviting atmosphere that sets the stage for unforgettable memories.
-    Indulge in the finer things in life at Meridian, where every visit is an ode to opulence. Book your table today and embark on a culinary journey that's nothing short of extraordinary."`;
+    let restrauText = document.createElement('div');
+    restrauText.className = "restrau-brief-text";
+    restrauText.innerText = `Welcome to Meridian, where elegance meets culinary excellence. Our restaurant is the quintessential destination for an unforgettable dinner date experience. Our menu is a testament to our commitment to quality and indulgence. Savor the finest non-vegetarian platters and seafood dishes meticulously crafted by our world-class chefs. Indulge in the finer things in life at Meridian, where every visit is an ode to opulence. Book your table today and embark on a culinary journey that's nothing short of extraordinary."`;
 
-    restaurantBrief.appendChild(restrauBreifText);
+    restaurantBrief.appendChild(restrauText);
 
     let restrauSpeciality = document.createElement('div');
     restrauSpeciality.className = "restrau-special";
@@ -53,6 +43,7 @@ let makeBody = () => {
     workData.innerText = "We are open on Monday to Friday from 4 PM to 2 AM";
     workingDaysAndTime.appendChild(workData);
 
-    body.innerHTML = '';
     body.append(banner, restaurantBrief, restrauSpeciality, workingDaysAndTime);
 };
+
+export default makeHome;
