@@ -56,7 +56,7 @@ let makeWorkingData = () => {
     let workingDaysAndTime = document.createElement('div');
     workingDaysAndTime.classList = "working-days";
     let workData = document.createElement('p');
-    workData.innerText = "We are open from Monday to Friday from 4 PM to 2 AM";
+    workData.innerText = "We are open from Monday to Friday from 4 PM to 2 AM.";
     workingDaysAndTime.appendChild(workData);
     return workingDaysAndTime;
 }
