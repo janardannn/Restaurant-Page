@@ -15,7 +15,7 @@ body {
     justify-content: space-between;
     width: 100vw;
     height: 100vh;
-    background-image: url("../resources/background.png");
+    background-image: url("./resources/background.png");
     background-size: cover;
 }
 
@@ -27,13 +27,12 @@ body {
 }
 
 .header-brand-banner {
-    font-family: 'Young Serif', serif;
-    font-size: 2.7rem;
+    font-family: 'Mea Culpa', cursive;
+    font-size: 4.1rem;
     letter-spacing: 2.7px;
-    font-family: 'Young Serif', serif;
     color: black;
     margin-bottom: 3rem;
-    text-shadow: 1px 1px 1px white;
+    text-shadow: 0.45px 0.45px 0.45px white;
 }
 
 .header-nav-bar {
