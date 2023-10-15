@@ -33,6 +33,7 @@ body {
     color: black;
     margin-bottom: 3rem;
     text-shadow: 0.45px 0.45px 0.45px white;
+    text-decoration: underline;
     /* border: 2px black solid; */
 }
 
@@ -72,7 +73,8 @@ body {
     flex-direction: column;
     justify-content: space-evenly;
     justify-self: center;
-    border: 2.1px #DFD7BF solid;
+    /* border: 2.1px #DFD7BF solid; */
+    border: 2.1px black solid;
     border-radius: 5px;
     background-color: rgba(100, 89, 77, .5);
 
