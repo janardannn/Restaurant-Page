@@ -33,6 +33,7 @@ body {
     color: black;
     margin-bottom: 3rem;
     text-shadow: 0.45px 0.45px 0.45px white;
+    /* border: 2px black solid; */
 }
 
 .header-nav-bar {
@@ -71,24 +72,30 @@ body {
     flex-direction: column;
     justify-content: space-evenly;
     justify-self: center;
-    border: 3.5px #DFD7BF solid;
+    border: 2.1px #DFD7BF solid;
     border-radius: 5px;
     background-color: rgba(100, 89, 77, .5);
+
+    padding-top: 4.1vh;
+    padding-bottom: 4.1vh;
 }
 
 .restrau-brief-text {
+    margin-top: 1.25vh;
+    margin-bottom: 4.1vh;
     margin-left: 5vw;
     margin-right: 5vw;
 }
 
 .restrau-special {
     display: flex;
-
+    margin-bottom: 3vh;
 }
 
 .restrau-special-image {
     margin-left: 5vw;
     border-radius: 8px;
+    border: 2.9px black solid;
 
 }
 
@@ -101,7 +108,7 @@ body {
 }
 
 .restrau-special-title {
-    margin-bottom: 0.5vw;
+    margin-bottom: 1.1vw;
     text-decoration: underline;
 }
 
