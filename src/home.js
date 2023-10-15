@@ -28,7 +28,7 @@ let makeSpeciality = () => {
 
     let specialImage = document.createElement('img');
     specialImage.className = "restrau-special-image";
-    specialImage.src = "../resources/special_dish.jpg";
+    specialImage.src = "./resources/special_dish.jpg";
 
     let specialText = document.createElement('div');
     specialText.classList.add('restrau-special-text');

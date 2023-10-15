@@ -24,7 +24,7 @@ let makeHeader = () => {
     let home = document.createElement('button');
     home.className = "header-home-button";
     home.classList.add('tab-btn');
-    home.innerText = "Home"
+    home.innerText = "Home";
 
     let menu = document.createElement('button');
     menu.className = "header-menu-button";
@@ -44,7 +44,6 @@ let makeHeader = () => {
     headerContainer.appendChild(navBar);
 
     container.appendChild(headerContainer);
-
 };
 
 let makeFooter = () => {
@@ -56,7 +55,7 @@ let makeFooter = () => {
 
     let github = document.createElement('a');
     let icon = document.createElement('img');
-    icon.src = "../resources/github.png";
+    icon.src = "./resources/github.png";
     github.href = "https://github.com/janardannn/";
     github.target = "_blank";
     github.appendChild(icon);
